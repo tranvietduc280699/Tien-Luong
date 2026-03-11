@@ -1,0 +1,32 @@
+{
+  "name": "salary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@vueuse/core": "^14.2.1",
+    "axios": "^1.13.2",
+    "devextreme": "^23.2.15",
+    "devextreme-vue": "^23.2.15",
+    "prismjs": "^1.30.0",
+    "vue": "^3.5.24",
+    "vue-i18n": "^11.2.2",
+    "vue-prism-editor": "^2.0.0-alpha.2",
+    "vue-router": "^4.6.3",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "sass-embedded": "^1.93.3",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}

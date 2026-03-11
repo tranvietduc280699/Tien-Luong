@@ -1,0 +1,11 @@
+:root {
+    --icon-MISA: url("@/assets/icons/Icon.svg");
+    --icon-avt: url("../images/avt.jpg");
+    /* --icon-holiday: url("../icons/icon-holiday.svg"); */
+    /* --bg-logo: url("../icons/bg_logo.svg"); */
+    --icon-logo-payroll: url("../icons/icon-payroll-logo.svg");
+    /* --bg_sidebar: url("../icons/bg_sidebar.svg"); */
+    --bg_sidebar: url("../images/horse.png");
+    --icon-cherryBlossom: url("../images/cherryBlossom.jpg");
+    --icon-background: url("../images/header_background.jpg");
+}

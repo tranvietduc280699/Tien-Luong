@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MISA.AMIS.Salary.DL\MISA.AMIS.Salary.DL.csproj" />
+    <ProjectReference Include="..\MISA.AMIS.Salary.Model\MISA.AMIS.Salary.Model.csproj" />
+  </ItemGroup>
+
+</Project>

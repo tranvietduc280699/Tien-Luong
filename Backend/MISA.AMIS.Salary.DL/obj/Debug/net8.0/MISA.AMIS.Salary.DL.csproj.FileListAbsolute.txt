@@ -1,0 +1,15 @@
+D:\Future\Backend\MISA.AMIS.Salary.DL\bin\Debug\net8.0\MISA.AMIS.Salary.DL.deps.json
+D:\Future\Backend\MISA.AMIS.Salary.DL\bin\Debug\net8.0\MISA.AMIS.Salary.DL.dll
+D:\Future\Backend\MISA.AMIS.Salary.DL\bin\Debug\net8.0\MISA.AMIS.Salary.DL.pdb
+D:\Future\Backend\MISA.AMIS.Salary.DL\bin\Debug\net8.0\MISA.AMIS.Salary.Model.dll
+D:\Future\Backend\MISA.AMIS.Salary.DL\bin\Debug\net8.0\MISA.AMIS.Salary.Model.pdb
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.csproj.AssemblyReference.cache
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.AssemblyInfoInputs.cache
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.AssemblyInfo.cs
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.csproj.CoreCompileInputs.cache
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMI.496E2720.Up2Date
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.dll
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\refint\MISA.AMIS.Salary.DL.dll
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\MISA.AMIS.Salary.DL.pdb
+D:\Future\Backend\MISA.AMIS.Salary.DL\obj\Debug\net8.0\ref\MISA.AMIS.Salary.DL.dll

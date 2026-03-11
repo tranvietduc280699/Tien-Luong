@@ -1,0 +1,397 @@
+[
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteById",
+    "RelativePath": "api/Organization/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Organization/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Organization/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Insert",
+    "RelativePath": "api/Organization/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "MISA.AMIS.Salary.Model.Organization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaging",
+    "RelativePath": "api/Organization/Paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paging",
+        "Type": "MISA.AMIS.Salary.Model.BaseModel.PagingParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MISA.AMIS.Salary.Model.BaseModel.PagedResult\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Organization, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Organization/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "MISA.AMIS.Salary.Model.Organization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteById",
+    "RelativePath": "api/SalaryComposition/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.SalaryCompositionController",
+    "Method": "DeleteMany",
+    "RelativePath": "api/SalaryComposition/DeleteManyID",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SalaryComposition/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/SalaryComposition/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.SalaryCompositionController",
+    "Method": "GetByKeyWord",
+    "RelativePath": "api/SalaryComposition/GetByKeyWord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyWord",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Insert",
+    "RelativePath": "api/SalaryComposition/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "MISA.AMIS.Salary.Model.Entities.SalaryComposition",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaging",
+    "RelativePath": "api/SalaryComposition/Paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paging",
+        "Type": "MISA.AMIS.Salary.Model.BaseModel.PagingParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MISA.AMIS.Salary.Model.BaseModel.PagedResult\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalaryComposition, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/SalaryComposition/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "MISA.AMIS.Salary.Model.Entities.SalaryComposition",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.SalaryCompositionController",
+    "Method": "UpdateSingleField",
+    "RelativePath": "api/SalaryComposition/UpdateSingleField",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FieldValue",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.SalaryCompositionController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/SalaryComposition/UpdateStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.SalaryCompositionController",
+    "Method": "UpdateStatusMany",
+    "RelativePath": "api/SalaryComposition/UpdateStatusMany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteById",
+    "RelativePath": "api/SalarySystem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/SalarySystem/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/SalarySystem/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Insert",
+    "RelativePath": "api/SalarySystem/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "MISA.AMIS.Salary.Model.Entities.SalarySystem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaging",
+    "RelativePath": "api/SalarySystem/Paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paging",
+        "Type": "MISA.AMIS.Salary.Model.BaseModel.PagingParam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MISA.AMIS.Salary.Model.BaseModel.PagedResult\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MISA.AMIS.Salary.API.Controllers.BaseControllers.BaseControllers\u00601[[MISA.AMIS.Salary.Model.Entities.SalarySystem, MISA.AMIS.Salary.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/SalarySystem/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "MISA.AMIS.Salary.Model.Entities.SalarySystem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

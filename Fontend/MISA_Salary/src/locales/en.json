@@ -1,0 +1,36 @@
+{
+  "header":{
+    "salary":"Salary"
+  },
+  "sidebar": {
+    "overview": "Overview",
+    "salaryComponent": "Salary Component",
+    "salaryTemplate": "Salary Templates",
+    "salaryData": "Payroll Data",
+    "salaryCalculate": "Salary Calculation",
+    "payment": "Payment",
+    "report": "Reports",
+    "settings": "Settings",
+    "collapse": "Collapse"
+  },
+   "content": {
+    "salaryTitle": "Salary Components",
+    "systemCategory": "System Categories",
+    "addNew": "Add New"
+  },
+   "filter": {
+    "search": "Search",
+    "allStatus": "All status",
+    "allOrganization": "All organizations",
+    "selected":"Selected",
+    "deselected":"Deselected",
+    "unfollowed":"Unfollowed",
+    "delete":"Delete"
+
+  },
+   "paging": {
+    "total": "Total records",
+    "pageSize": "Records per page",
+    "range": "records"
+  }
+}

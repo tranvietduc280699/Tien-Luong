@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../MISA.AMIS.Salary.BL/MISA.AMIS.Salary.BL.csproj" />
+  <Project Path="../MISA.AMIS.Salary.DL/MISA.AMIS.Salary.DL.csproj" Id="d09d40e2-b5d9-43f6-b7f4-a445ba52a8e3" />
+  <Project Path="../MISA.AMIS.Salary.Model/MISA.AMIS.Salary.Model.csproj" />
+  <Project Path="MISA.AMIS.Salary.API.csproj" />
+</Solution>

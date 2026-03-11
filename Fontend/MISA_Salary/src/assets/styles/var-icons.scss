@@ -1,0 +1,684 @@
+@mixin make_property($property, $value) {
+  -webkit-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  #{$property}: #{$value};
+}
+
+@mixin setIcon(
+  $icon-name,
+  $icon-width,
+  $icon-height,
+  $icon-color,
+  $icon-posX,
+  $icon-posY,
+  $icon-link
+) {
+  @if $icon-color == "" {
+    $icon-color: $icon-default-color;
+  }
+
+  .#{$icon-name} {
+    width: $icon-width;
+    height: $icon-height;
+    // không dùng được link chung vì lúc build sẽ bị lỗi
+    // -webkit-mask-image: $link-icon;
+    @include make_property(mask-image, $icon-link);
+    @include make_property(mask-position, $icon-posX $icon-posY);
+    @include make_property(mask-repeat, no-repeat);
+    // mask-image: $link-icon;
+    // mask-position: $icon-posX $icon-posY;
+    background-color: $icon-color;
+    // mask-repeat: no-repeat;
+  }
+}
+
+// set icon mà không quan tâm đến màu
+@mixin setIconWithoutColor(
+  $icon-name,
+  $icon-width,
+  $icon-height,
+  $icon-posX,
+  $icon-posY,
+  $icon-link
+) {
+  .#{$icon-name} {
+    width: $icon-width;
+    height: $icon-height;
+    // không dùng được link chung vì lúc build sẽ bị lỗi
+    @include make-property(mask-image, $icon-link);
+    // -webkit-mask-image: $link-icon;
+    // mask-image: $link-icon;
+
+    @include make-property(mask-position, $icon-posX $icon-posY);
+    @include make-property(mask-repeat, no-repeat);
+    // mask-position: $icon-posX $icon-posY;
+    // mask-repeat: no-repeat;
+  }
+}
+
+// set icon lấy màu mặc định
+@mixin setIconWithDefaultColor(
+  $icon-name,
+  $icon-width,
+  $icon-height,
+  $icon-posX,
+  $icon-posY,
+  $icon-link
+) {
+  .#{$icon-name} {
+    min-width: $icon-width;
+    width: $icon-width !important;
+    height: $icon-height !important;
+    // không dùng được link chung vì lúc build sẽ bị lỗi
+    background: $icon-link $icon-posX $icon-posY no-repeat !important;
+  }
+}
+
+// set icon
+@mixin setIconBackGroundIcon($icon-name, $icon-link) {
+  .#{$icon-name} {
+    // không dùng được link chung vì lúc build sẽ bị lỗi
+    background-repeat: no-repeat;
+    background-image: $icon-link;
+  }
+}
+
+@include setIconWithDefaultColor(
+  mi-info-blue,
+  16px,
+  16px,
+  -128px,
+  -545px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-ms-tooltip,
+  16px,
+  16px,
+  #6e737a,
+  -82px,
+  -82px,
+  var(--icon-MISA)
+);
+
+//logo
+.icon-logo {
+  width: 32px;
+  height: 32px;
+  background-image: var(--icon-logo-payroll);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@include setIcon(
+  mi-square-check-primary,
+  20px,
+  20px,
+  #6e737a,
+  -260px,
+  0px,
+  var(--icon-MISA)
+);
+
+//icon kính núp tìm kiếm
+@include setIcon(
+  icon-default,
+  16px,
+  16px,
+  #6e737a,
+  -2px,
+  -2px,
+  var(--icon-MISA)
+);
+//icon bên phải header
+@include setIcon(
+  icon_notification_version,
+  24px,
+  24px,
+  #666,
+  -338px,
+  -596px,
+  var(--icon-MISA)
+);
+
+//icon card trên header
+.icon_cart {
+  height: 20px;
+  aspect-ratio: 1 / 1;
+  /* chiều cao = chiều rộng */
+  background: url("https://cdnstore.misacdn.net/lib/static/cs-icon-store.svg")
+    no-repeat center;
+  background-size: 20px 20px;
+  cursor: pointer;
+}
+
+//icon star trên mobileAds
+.star_mobileAds {
+  width: 32px;
+  height: 32px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMSAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik00Ljk5NTE0IDkuMjAyMDJDNC45MjczMiA5LjQxMjQyIDQuODEwNDMgOS42MDM2NyA0LjY1NDEyIDkuNzU5OTlDNC40OTc4MSA5LjkxNjMgNC4zMDY1NSAxMC4wMzMyIDQuMDk2MTUgMTAuMTAxQzQuMzA2NTUgMTAuMTY4OCA0LjQ5NzgxIDEwLjI4NTcgNC42NTQxMiAxMC40NDJDNC44MTA0MyAxMC41OTgzIDQuOTI3MzIgMTAuNzg5NiA0Ljk5NTE0IDExQzUuMDYyOTQgMTAuNzg5NiA1LjE3OTggMTAuNTk4NCA1LjMzNjA5IDEwLjQ0MkM1LjQ5MjM5IDEwLjI4NTcgNS42ODM2MiAxMC4xNjg4IDUuODk0IDEwLjEwMUM1LjY4MzYgMTAuMDMzMiA1LjQ5MjM1IDkuOTE2MzMgNS4zMzYwNiA5Ljc2MDAxQzUuMTc5NzYgOS42MDM2OSA1LjA2MjkxIDkuNDEyNDMgNC45OTUxNCA5LjIwMjAyWk03LjQ0NzA5IDBDNy4xMzk1MyAxLjcxMTQ4IDUuNzg2NyAzLjA2NDQ0IDQuMDc1NDggMy4zNzIxNEM1Ljc4NjcgMy42Nzk3IDcuMTM5NTMgNS4wMzI4IDcuNDQ3MDkgNi43NDQxNEM3Ljc1NDY1IDUuMDMyNjYgOS4xMDc0OCAzLjY3OTcgMTAuODE4NyAzLjM3MjE0QzkuMTA3NDggMy4wNjQ0NCA3Ljc1NDY1IDEuNzExNDggNy40NDcwOSAwWk0xLjc3NTg2IDQuNjY3NTZDMS41NjYxMiA1LjU0MzEyIDAuODc1NTU1IDYuMjMzODIgMCA2LjQ0MzU2QzAuODc1NTU1IDYuNjUzMyAxLjU2NjI2IDcuMzQ0IDEuNzc1ODYgOC4yMTk1NUMxLjk4NTYgNy4zNDQgMi42NzYxNyA2LjY1MzMgMy41NTE3MyA2LjQ0MzU2QzIuNjc2MTcgNi4yMzM4MiAxLjk4NTYgNS41NDMxMiAxLjc3NTg2IDQuNjY3NTZaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTAxOV8xODcwMikiLz4NCjxkZWZzPg0KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzEwMTlfMTg3MDIiIHgxPSItMi4yMjUwMWUtMDciIHkxPSIxMS44MjUiIHgyPSIxLjM3NjE4IiB5Mj0iLTEuMDEyMjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCjxzdG9wIHN0b3AtY29sb3I9IiNGMTI3MTEiLz4NCjxzdG9wIG9mZnNldD0iMC41MzE2NjYiIHN0b3AtY29sb3I9IiNGRjdFNUQiLz4NCjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGQzAzQSIvPg0KPC9saW5lYXJHcmFkaWVudD4NCjwvZGVmcz4NCjwvc3ZnPg0K");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+}
+
+@include setIcon(
+  icon_mobileAds,
+  14px,
+  20px,
+  #2563eb,
+  -321px,
+  -475px,
+  var(--icon-MISA)
+);
+
+.icon_invite {
+  width: 32px;
+  height: 32px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTEuNSIgY3k9IjUuNSIgcj0iMy41IiBzdHJva2U9IiM3NTc1NzUiIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNMy41MDYyOSAxNS43NDEzTDMuMTA2NTIgMTYuMjk2NUMxLjM5MTk2IDE4LjY3NzggMy4wOTM2OCAyMiA2LjAyODA0IDIySDE1Ljk3MkMxOC45MDYzIDIyIDIwLjYwOCAxOC42Nzc4IDE4Ljg5MzUgMTYuMjk2NUwxOC40OTM3IDE1Ljc0MTNDMTYuODAyNCAxMy4zOTIyIDE0LjA4NDUgMTIgMTEuMTg5OSAxMkgxMC44MTAxQzcuOTE1NTMgMTIgNS4xOTc2MSAxMy4zOTIyIDMuNTA2MjkgMTUuNzQxM1oiIHN0cm9rZT0iIzc1NzU3NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTIxIDVWN1Y5IiBzdHJva2U9IiMyQ0EwMUMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxwYXRoIGQ9Ik0xOSA3SDIxSDIzIiBzdHJva2U9IiMyQ0EwMUMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+}
+
+//icon message
+.icon-message {
+  width: 32px;
+  height: 32px;
+  background-image: url("data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%203C7.02944%203%203%207.02945%203%2012C3%2013.7499%203.49992%2015.3827%204.36396%2016.7645L3%2021L7.23545%2019.636C8.6173%2020.5001%2010.2501%2021%2012%2021C16.9706%2021%2021%2016.9706%2021%2012C21%207.02945%2016.9706%203%2012%203Z'%20fill='url(%23paint0_linear_5024_37369)'%20stroke='url(%23paint1_linear_5024_37369)'%20stroke-miterlimit='10'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M13.0986%2012.0001C13.0986%2012.6069%2012.6068%2013.0988%2012%2013.0988C11.3932%2013.0988%2010.9014%2012.6069%2010.9014%2012.0001C10.9014%2011.3934%2011.3932%2010.9015%2012%2010.9015C12.6068%2010.9015%2013.0986%2011.3934%2013.0986%2012.0001Z'%20fill='white'/%3e%3cpath%20d='M17.4932%2012.0001C17.4932%2012.6069%2017.0013%2013.0988%2016.3945%2013.0988C15.7878%2013.0988%2015.2959%2012.6069%2015.2959%2012.0001C15.2959%2011.3934%2015.7878%2010.9015%2016.3945%2010.9015C17.0013%2010.9015%2017.4932%2011.3934%2017.4932%2012.0001Z'%20fill='white'/%3e%3cpath%20d='M8.7041%2012.0001C8.7041%2012.6069%208.21222%2013.0988%207.60547%2013.0988C6.99872%2013.0988%206.50684%2012.6069%206.50684%2012.0001C6.50684%2011.3934%206.99872%2010.9015%207.60547%2010.9015C8.21222%2010.9015%208.7041%2011.3934%208.7041%2012.0001Z'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_5024_37369'%20x1='12'%20y1='3'%20x2='12'%20y2='21'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%235B7CFF'/%3e%3cstop%20offset='1'%20stop-color='%23214BF5'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_5024_37369'%20x1='12'%20y1='3'%20x2='12'%20y2='21'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%235B7CFF'/%3e%3cstop%20offset='1'%20stop-color='%23214BF5'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+}
+
+@include setIcon(
+  icon-notification,
+  20px,
+  21px,
+  #666,
+  -74px,
+  -122px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  mi-chevron-down,
+  20px,
+  20px,
+  #6e737a,
+  -100px,
+  0px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-helpMenu,
+  20px,
+  20px,
+  #666,
+  -26px,
+  -122px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-moreMenu,
+  20px,
+  20px,
+  #666,
+  -2px,
+  -122px,
+  var(--icon-MISA)
+);
+
+//icon avt
+.avt-MenuAccount {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  max-width: 24px;
+  max-height: 24px;
+  background-image: var(--icon-avt);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+}
+
+//
+//phần icon cho sidebar bên trái
+//
+@include setIcon(
+  sidebar-dashboard,
+  20px,
+  18px,
+  #c1c1c1,
+  -0px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-salary-composition,
+  20px,
+  18px,
+  #c1c1c1,
+  -120px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-salary-template,
+  20px,
+  18px,
+  #c1c1c1,
+  -100px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-salary-data,
+  20px,
+  18px,
+  #c1c1c1,
+  -20px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-salary-table,
+  20px,
+  18px,
+  #c1c1c1,
+  -40px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-payment,
+  20px,
+  18px,
+  #c1c1c1,
+  -60px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-report,
+  20px,
+  18px,
+  #c1c1c1,
+  -80px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-setting,
+  20px,
+  18px,
+  #c1c1c1,
+  -140px,
+  -778px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  sidebar-dropdown,
+  8px,
+  12px,
+  #c1c1c1,
+  -186px,
+  -781px,
+  var(--icon-MISA)
+);
+//icon toggle trong button sidebar
+@include setIcon(
+  toggle-icon,
+  16px,
+  16px,
+  #c1c1c1,
+  -162px,
+  -779px,
+  var(--icon-MISA)
+);
+
+//
+//icon thanh cuối bản ghi paging
+//
+
+@include setIcon(
+  icon-page-left,
+  6px,
+  10px,
+  #6e737a,
+  -167px,
+  -5px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-page-right,
+  7px,
+  10px,
+  #6e737a,
+  -146px,
+  -5px,
+  var(--icon-MISA)
+);
+///
+///icon trong content
+///
+@include setIcon(
+  icon-system,
+  16px,
+  16px,
+  #666,
+  -262px,
+  -102px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-addition,
+  16px,
+  16px,
+  #fff,
+  -222px,
+  -2px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-dropdown-addition,
+  12px,
+  6px,
+  #fff,
+  -104px,
+  -7px,
+  var(--icon-MISA)
+);
+//icon search
+@include setIcon(
+  icon-scale-search,
+  16px,
+  17px,
+  #6e737a,
+  -2px,
+  -2px,
+  var(--icon-MISA)
+);
+//phần bên phải tìm kiếm trong header
+@include setIcon(
+  icon-dropdown,
+  12px,
+  7px,
+  #6e737a,
+  -104px,
+  -7px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-organization-unit,
+  12px,
+  7px,
+  #6e737a,
+  -104px,
+  -7px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-filter,
+  21px,
+  21px,
+  #6e737a,
+  -20px,
+  0px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-setting,
+  20px,
+  20px,
+  #6e737a,
+  -50px,
+  -122px,
+  var(--icon-MISA)
+);
+///
+/// icon hover trong listSalary
+///
+
+@include setIcon(
+  icon-offStatus,
+  16px,
+  16px,
+  #f90,
+  -222px,
+  -42px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-onStatus,
+  16px,
+  16px,
+  #34b057,
+  -182px,
+  -42px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-AddComponent,
+  17px,
+  16px,
+  #6e737a,
+  -81px,
+  -2px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-BaseSalary,
+  16px,
+  16px,
+  #6e737a,
+  -62px,
+  -2px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-Delete,
+  16px,
+  16px,
+  #ff6161,
+  -122px,
+  -22px,
+  var(--icon-MISA)
+);
+///
+/// icon selectbox (lựa chọn bản ghi)
+///
+@include setIcon(
+  iconDown_selectbox,
+  12px,
+  6px,
+  #6e737a,
+  -104px,
+  -7px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  iconTick,
+  17px,
+  11px,
+  #34b057,
+  -121px,
+  -65px,
+  var(--icon-MISA)
+);
+///
+/// icon msDropDown (tất cả trạng thái)
+///
+@include setIcon(
+  icon-slot-hidden,
+  17px,
+  17px,
+  #34b057,
+  -121px,
+  -65px,
+  var(--icon-MISA)
+);
+///
+/// icon header ( header ẩn , hiện khi chọn bản ghi)
+///
+@include setIcon(
+  icon-StopFollow,
+  16px,
+  16px,
+  #f90,
+  -222px,
+  -42px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-OnFollow,
+  16px,
+  16px,
+  #34b057,
+  -182px,
+  -42px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon-clear,
+  16px,
+  16px,
+  #ff6161,
+  -122px,
+  -22px,
+  var(--icon-MISA)
+);
+///
+/// icon trong MsModal
+///
+@include setIcon(
+  icon-close,
+  17px,
+  16px,
+  #6e737a,
+  -281px,
+  -2px,
+  var(--icon-MISA)
+);
+
+///
+/// icon trong addSalary
+///
+@include setIcon(
+  icon-system-catalog,
+  14px,
+  12px,
+  #6e737a,
+  -181px,
+  -4px,
+  var(--icon-MISA)
+);
+///
+/// icon trong MsSelectBox
+///
+
+@include setIconWithDefaultColor(
+  iconSelected,
+  16px,
+  16px,
+  -262px,
+  -2px,
+  var(--icon-MISA)
+);
+@include setIcon(isIcon, 16px, 16px, #6e737a, -262px, -42px, var(--icon-MISA));
+// icon MsFormula
+@include setIcon(
+  icon-formula,
+  20px,
+  20px,
+  #6e737a,
+  -266px,
+  -122px,
+  var(--icon-MISA)
+);
+// icon value trong control Formula
+@include setIcon(
+  icon-value,
+  19px,
+  20px,
+  #6e737a,
+  -290px,
+  -122px,
+  var(--icon-MISA)
+);
+///
+/// icon trong MsTagBox
+///
+
+@include setIcon(
+  iconCloseLabel,
+  8px,
+  8px,
+  #6e737a,
+  -146px,
+  -86px,
+  var(--icon-MISA)
+);
+///
+///  icon cập nhật bản ghi
+///
+@include setIcon(
+  icon_update,
+  20px,
+  20px,
+  #6e737a,
+  -160px,
+  -40px,
+  var(--icon-MISA)
+);
+///
+///  icon toast thông báo
+///
+@include setIcon(
+  icon_toastSuccess,
+  18px,
+  18px,
+  #fff,
+  -337px,
+  -526px,
+  var(--icon-MISA)
+);
+@include setIcon(
+  icon_toastError,
+  18px,
+  18px,
+  #fff,
+  -317px,
+  -526px,
+  var(--icon-MISA)
+);
+
+///
+///  icon phần danh mục thành phần lương
+///
+
+@include setIcon(icon-use, 16px, 16px, #34b057, -222px, -2px, var(--icon-MISA));
+
+@include setIcon(
+  icon-addToUseLis,
+  16px,
+  16px,
+  #6e737a,
+  -222px,
+  -2px,
+  var(--icon-MISA)
+);
+
+///
+/// icon salarySystemModal
+/// icon_editSystemModal
+@include setIcon(
+  icon_editSystemModal,
+  17px,
+  16px,
+  #6e737a,
+  -281px,
+  -2px,
+  var(--icon-MISA)
+);

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/n82VaOIoPg=",
+  "success": true,
+  "projectFilePath": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+  ],
+  "logs": []
+}

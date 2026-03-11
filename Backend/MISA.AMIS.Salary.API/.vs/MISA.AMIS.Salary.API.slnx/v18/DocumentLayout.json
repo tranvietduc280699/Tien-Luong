@@ -1,0 +1,436 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\bl\\basebl\\basebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09D40E2-B5D9-43F6-B7F4-A445BA52A8E3}|..\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj|d:\\future\\backend\\misa.amis.salary.dl\\startupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\startupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\controllers\\basecontrollers\\basecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:controllers\\basecontrollers\\basecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\controllers\\salarycompositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:controllers\\salarycompositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\bl\\salarycompositionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09D40E2-B5D9-43F6-B7F4-A445BA52A8E3}|..\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj|d:\\future\\backend\\misa.amis.salary.dl\\databasehelper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D7302C-139D-AF09-D435-2601CF0D2B4E}|..\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj|d:\\future\\backend\\misa.amis.salary.model\\basemodel\\resultreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09D40E2-B5D9-43F6-B7F4-A445BA52A8E3}|..\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj|d:\\future\\backend\\misa.amis.salary.dl\\dl\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D7302C-139D-AF09-D435-2601CF0D2B4E}|..\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj|d:\\future\\backend\\misa.amis.salary.model\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\misa.amis.salary.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:misa.amis.salary.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\bl\\organizationbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09D40E2-B5D9-43F6-B7F4-A445BA52A8E3}|..\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj|d:\\future\\backend\\misa.amis.salary.dl\\misa.amis.salary.dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\controllers\\salarysystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:controllers\\salarysystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\bl\\salarysystembl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\misa.amis.salary.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D7302C-139D-AF09-D435-2601CF0D2B4E}|..\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj|d:\\future\\backend\\misa.amis.salary.model\\basemodel\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D7302C-139D-AF09-D435-2601CF0D2B4E}|..\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj|d:\\future\\backend\\misa.amis.salary.model\\basemodel\\pagingparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\ibl\\ibasebl\\ibasebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\ibl\\isalarycompositionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|d:\\future\\backend\\misa.amis.salary.api\\controllers\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C8A6B2-7B69-3061-FC03-BE5FD30A3A4B}|MISA.AMIS.Salary.API.csproj|solutionrelative:controllers\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\ibl\\isalarysystembl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73896AEE-F0A3-3323-9054-DC399269EB00}|..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj|d:\\future\\backend\\misa.amis.salary.bl\\ibl\\iorganizationbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D7302C-139D-AF09-D435-2601CF0D2B4E}|..\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj|d:\\future\\backend\\misa.amis.salary.model\\entities\\salarycomposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D7302C-139D-AF09-D435-2601CF0D2B4E}|..\\MISA.AMIS.Salary.Model\\MISA.AMIS.Salary.Model.csproj|d:\\future\\backend\\misa.amis.salary.model\\entities\\salarysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseControllers.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\BaseControllers\\BaseControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseControllers\\BaseControllers.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\BaseControllers\\BaseControllers.cs",
+              "RelativeToolTip": "Controllers\\BaseControllers\\BaseControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T08:05:18.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResultReponse.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\BaseModel\\ResultReponse.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.Model\\BaseModel\\ResultReponse.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\BaseModel\\ResultReponse.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.Model\\BaseModel\\ResultReponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:44:07.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalaryCompositionController.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\SalaryCompositionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalaryCompositionController.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\SalaryCompositionController.cs",
+              "RelativeToolTip": "Controllers\\SalaryCompositionController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:25:15.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartupExtension.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\StartupExtension.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.DL\\StartupExtension.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\StartupExtension.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.DL\\StartupExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:44:46.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartupExtension.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\StartupExtension.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\StartupExtension.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\StartupExtension.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\StartupExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:34:15.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\BaseBL\\BaseBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\BL\\BaseBL\\BaseBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\BaseBL\\BaseBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\BL\\BaseBL\\BaseBL.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAtwFEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T08:29:02.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\DatabaseHelper\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.DL\\DatabaseHelper\\DatabaseHelper.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\DatabaseHelper\\DatabaseHelper.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.DL\\DatabaseHelper\\DatabaseHelper.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAApwF8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:34:06.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalaryCompositionBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\SalaryCompositionBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\BL\\SalaryCompositionBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\SalaryCompositionBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\BL\\SalaryCompositionBL.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAApwFsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T07:45:25.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\DL\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.DL\\DL\\DatabaseService.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\DL\\DatabaseService.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.DL\\DL\\DatabaseService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:27:58.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\Entities\\Organization.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.Model\\Entities\\Organization.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\Entities\\Organization.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.Model\\Entities\\Organization.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T13:27:28.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MISA.AMIS.Salary.API.csproj",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\MISA.AMIS.Salary.API.csproj",
+              "RelativeDocumentMoniker": "MISA.AMIS.Salary.API.csproj",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\MISA.AMIS.Salary.API.csproj",
+              "RelativeToolTip": "MISA.AMIS.Salary.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T10:24:35.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrganizationBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\OrganizationBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\BL\\OrganizationBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\OrganizationBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\BL\\OrganizationBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T16:23:57.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MISA.AMIS.Salary.DL.csproj",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.DL\\MISA.AMIS.Salary.DL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-05T14:25:50.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalarySystemController.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\SalarySystemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalarySystemController.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\SalarySystemController.cs",
+              "RelativeToolTip": "Controllers\\SalarySystemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T07:56:48.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T14:50:34.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SalarySystemBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\SalarySystemBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\BL\\SalarySystemBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\BL\\SalarySystemBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\BL\\SalarySystemBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T08:54:10.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MISA.AMIS.Salary.BL.csproj",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\MISA.AMIS.Salary.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T08:57:41.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\BaseModel\\PagedResult.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.Model\\BaseModel\\PagedResult.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\BaseModel\\PagedResult.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.Model\\BaseModel\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:43:38.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-27T03:33:05.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PagingParam.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\BaseModel\\PagingParam.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.Model\\BaseModel\\PagingParam.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\BaseModel\\PagingParam.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.Model\\BaseModel\\PagingParam.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:43:42.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IBaseBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\IBaseBL\\IBaseBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\IBL\\IBaseBL\\IBaseBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\IBaseBL\\IBaseBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\IBL\\IBaseBL\\IBaseBL.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAjwCIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T08:27:29.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ISalaryCompositionBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\ISalaryCompositionBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\IBL\\ISalaryCompositionBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\ISalaryCompositionBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\IBL\\ISalaryCompositionBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T08:25:35.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrganizationController.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\OrganizationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrganizationController.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.API\\Controllers\\OrganizationController.cs",
+              "RelativeToolTip": "Controllers\\OrganizationController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvw4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T15:20:55.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ISalarySystemBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\ISalarySystemBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\IBL\\ISalarySystemBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\ISalarySystemBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\IBL\\ISalarySystemBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T06:34:18.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IOrganizationBL.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\IOrganizationBL.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.BL\\IBL\\IOrganizationBL.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.BL\\IBL\\IOrganizationBL.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.BL\\IBL\\IOrganizationBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T08:17:56.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SalaryComposition.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\Entities\\SalaryComposition.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.Model\\Entities\\SalaryComposition.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\Entities\\SalaryComposition.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.Model\\Entities\\SalaryComposition.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:38:48.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SalarySystem.cs",
+              "DocumentMoniker": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\Entities\\SalarySystem.cs",
+              "RelativeDocumentMoniker": "..\\MISA.AMIS.Salary.Model\\Entities\\SalarySystem.cs",
+              "ToolTip": "D:\\Future\\Backend\\MISA.AMIS.Salary.Model\\Entities\\SalarySystem.cs",
+              "RelativeToolTip": "..\\MISA.AMIS.Salary.Model\\Entities\\SalarySystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T16:29:29.042Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "Common":{
+      "Cancel":"Hủy bỏ"
+  },
+ "header":{
+    "salary":"Tiền lương"
+  },
+  "sidebar": {
+    "overview": "Tổng quan",
+    "salaryComponent": "Thành phần lương",
+    "salaryTemplate": "Mẫu bảng lương",
+    "salaryData": "Dữ liệu tính lương",
+    "salaryCalculate": "Tính lương",
+    "payment": "Chi trả",
+    "report": "Báo cáo",
+    "settings": "Thiết lập",
+    "collapse": "Thu gọn"
+  },
+  "content":{
+    "salaryTitle": "Thành phần lương",
+    "systemCategory": "Danh mục của hệ thống",
+    "addNew": "Thêm mới",
+    "following": "Đang theo dõi",
+    "unfollow": "Ngừng theo dõi"
+
+  },
+  "filter": {
+    "search": "Tìm kiếm",
+    "allStatus": "Tất cả trạng thái",
+    "onStatus":"Đang theo dõi",
+    "offStatus":"Ngừng theo dõi",
+    "allOrganization": "Tất cả đơn vị tổ chức",
+    "selected":"Đã chọn",
+    "deselected":"Bỏ chọn",
+    "unfollowed":"Ngừng theo dõi",
+    "onfollowed":"Đang theo dõi",
+    "delete":"Xóa"
+  },
+    "paging": {
+    "total": "Tổng số bản ghi",
+    "pageSize": "Số bản ghi/trang",
+    "range": "bản ghi"
+  },
+  "contentSystem":{
+    "systemSalaryCategory": "Danh mục thành phần lương của hệ thống",
+    "allSalaryComponents": "Tất cả thành phần",
+    "addToUseList": "Đưa vào danh sách sử dụng"
+  }
+}
